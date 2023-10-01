@@ -1,7 +1,8 @@
-import { OpenSans } from 'next/font/google';
-import styles from './rootStyle.module.css';
+import Link from 'next/link';
+import { Open_Sans } from 'next/font/google';
+import styles from './globals.css';
 
-const openSans = OpenSans({
+const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ['400'],
 })
